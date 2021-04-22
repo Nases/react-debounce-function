@@ -1,3 +1,4 @@
-exports.printMsg = function () {
-  console.log("This is a message from the demo package");
-}
+import { useCallback } from 'react'
+import debounce from 'lodash.debounce'
+
+export const useDebounce = (func, delay) => [useCallback(debounce(func, delay))]

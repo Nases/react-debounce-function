@@ -1,11 +1,27 @@
 {
   "name": "react-debounce-function",
   "version": "1.0.0",
-  "description": "React debounce",
+  "description": "React hook for debouncing functions.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Hasan Sefa Ozalp",
-  "license": "MIT"
+  "author": "Hasan Sefa Ozalp <hasan@hasansefaozalp.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-hook",
+    "debounce"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Nases/react-debounce-function.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nases/react-debounce-function/issues"
+  },
+  "dependencies": {
+    "lodash.debounce": "^4.0.8",
+    "react": "*"
+  }
 }
